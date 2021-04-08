@@ -1,0 +1,66 @@
+* {
+    font-family: Verdana;
+}
+
+div#poem {
+  font-style: italic;
+}
+
+h1, h2 {
+    font-family: Tahoma;
+}
+
+li list-bold {
+    font-weight: bold;
+}
+
+li a {
+  font-style: normal;
+}
+
+ol li {
+    font-style: italic;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+  
+.sticky + .content {
+  padding-top: 60px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-spacing: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.topnav {
+    background-color: red;
+    overflow: hidden;
+  }
+  
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+  
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+  
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
